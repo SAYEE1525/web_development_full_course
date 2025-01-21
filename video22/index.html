@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS sizing units</title>
+    <style>
+        .box{
+            color: brown;
+            border: 2px solid pink;
+            /* width: 233px; */
+            width: 80vw;
+            margin: auto;
+            background-color: yellow;
+        }
+        .container{
+            color: brown;
+            border: 2px solid pink;
+            /* width: 233px; */
+            width: 80vw;
+            height: 80vh;
+            font-size: 18px;
+            margin: 23px auto;
+            background-color: yellow;
+        }
+        .container p{
+            font-size: 2em;/*it will count double of pixel means if by default it is 18 px then by using em it will become 36px*/
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .mycont{
+            box-sizing: border-box;
+            border: 2px solid pink;
+            margin: 23px auto;
+            background-color: red;
+            color: yellow;
+            font-size: 22px;
+            width: 80vw;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        this is box.
+    </div>
+    <div class="container">
+        <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis laboriosam maiores excepturi.
+        </p>
+    </div>
+    <div class="mycont">
+        I am container.
+    </div>
+</body>
+</html>

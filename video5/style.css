@@ -1,0 +1,21 @@
+td{
+    border: 2px solid palevioletred;
+}
+body{
+    background-color: yellow;
+}
+ul{
+    background-color: plum;
+}
+ol{
+    background-color: palevioletred;
+}
+thead{
+    background-color:white;
+}
+tbody{
+    background-color: red;
+}
+tfoot{
+    background-color: pink;
+}
